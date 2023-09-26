@@ -18,7 +18,8 @@
 	<div class="container">
 		<div class="center">
 			 <h1>Registration Error</h1>
-    		 <p>There was an error with your registration. Please try again.</p>
+    		 	<p>${errorMessage}</p>
+    		<	p><a href="register.jsp">Go back to registration</a></p>
 		</div>
 	</div>
 </body>
